@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Bookmarks"
+            android:id="@+id/bookmarks"
+            android:icon="@drawable/navigation_menu_bookmarks_icon"
+            />
+        <item android:title="Top Rated"
+            android:id="@+id/top_rated"
+            android:icon="@drawable/navigation_menu_popular_icon"/>
+        <item android:title="Most Favourite"
+            android:id="@+id/most_favourite"
+            
+            android:icon="@drawable/navigation_menu_most_favorite_icon"/>
+    </group>
+    <item android:title="Sort Order">
+        <menu>
+            <item android:title="ascending"/>
+            <item android:title="descending"/>
+        </menu>
+    </item>
+</menu>

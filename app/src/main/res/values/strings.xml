@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TeeVee</string>
+    <string name="open_drawer">opening drawer</string>
+    <string name="closing_drawer">closing drawer</string>
+</resources>
